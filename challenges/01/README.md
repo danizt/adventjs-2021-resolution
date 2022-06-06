@@ -28,4 +28,4 @@ console.log(ovejasFiltradas)
 //  { name: 'Ki Na Ma', color: 'rojo' }]
 ```
 
-[Volver a la tabla de desafíos](/)
+[Volver a la tabla de desafíos](/README.md)
