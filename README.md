@@ -7,7 +7,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 |  #  |                                       Desafío                                       | Dificultad  |               Solución               |
 | :-: | :---------------------------------------------------------------------------------: | :---------: | :----------------------------------: |
 | 01  |                    [Contando ovejas para dormir](challenges/01/)                    |    Fácil    | [Mostrar](challenges/01/solution.js) |
-| 02  |               [¡Ayuda al elfo a listar los regalos!](challenges/02/)                |    Fácil    |                  ❌                  |
+| 02  |               [¡Ayuda al elfo a listar los regalos!](challenges/02/)                |    Fácil    | [Mostrar](challenges/02/solution.js) |
 | 03  |               [El Grinch quiere fastidiar la Navidad](challenges/03/)               |   Normal    |                  ❌                  |
 | 04  |               [¡Es hora de poner la navidad en casa!](challenges/04/)               |   Normal    |                  ❌                  |
 | 05  |                [Contando los días para los regalos](challenges/05/)                 |    Fácil    |                  ❌                  |

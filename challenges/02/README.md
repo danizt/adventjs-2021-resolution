@@ -30,4 +30,8 @@ console.log(regalos)
 
 Ten en cuenta que los tests pueden ser más exhaustivos... 😝 **¡Cuidado con contar espacios vacíos!**
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
+
 [Volver a la tabla de desafíos](/README.md)
