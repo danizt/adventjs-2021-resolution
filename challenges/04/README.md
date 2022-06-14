@@ -33,4 +33,8 @@ __#__
 
 Ten en cuenta que el árbol es un string y necesitas los saltos de línea `\n` para cada línea para que se forme bien el árbol.
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
+
 [Volver a la tabla de desafíos](/README.md)
