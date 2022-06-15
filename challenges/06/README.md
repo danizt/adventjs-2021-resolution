@@ -24,8 +24,9 @@ El resultado tiene que ser un **array con dos números**.
 
 Una vez que tengas el resultado... ¿cómo podrías hacer que fuese lo más óptimo posible para **no tener que recorrer las mismas situaciones dos veces** 🤔?
 
-## Solución aceptada
+## Soluciones aceptadas
 
-![Solución aceptada](./solution.png)
+![Solución 1 aceptada](./solution.png)
+![Solución 2 aceptada](./solutionOneLoop.png)
 
 [Volver a la tabla de desafíos](/README.md)
