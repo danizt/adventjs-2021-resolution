@@ -14,34 +14,37 @@ const almacen = {
     cajon1: {
       producto1: 'coca-cola',
       producto2: 'fanta',
-      producto3: 'sprite'
-    }
+      producto3: 'sprite',
+    },
   },
   estanteria2: {
     cajon1: 'vacio',
     cajon2: {
       producto1: 'pantalones',
-      producto2: 'camiseta' // <- ¡Está aquí!
-    }
-  }
-};
+      producto2: 'camiseta', // <- ¡Está aquí!
+    },
+  },
+}
 
-contains(almacen, 'camiseta'); // true
+contains(almacen, 'camiseta') // true
 
 const otroAlmacen = {
   baul: {
     fondo: {
       objeto: 'cd-rom',
       'otro-objeto': 'disquette',
-      'otra-cosa': 'mando'
-    }
-  }
-};
+      'otra-cosa': 'mando',
+    },
+  },
+}
 
-contains(otroAlmacen, 'gameboy'); // false
+contains(otroAlmacen, 'gameboy') // false
 ```
 
 Ten en cuenta que la tienda es enorme. Tiene diferentes almacenes y, como has visto en los ejemplos, cada uno puede tener diferentes organizaciones. **Lo importante es buscar que el producto está en los almacénes**.
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)

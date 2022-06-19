@@ -12,7 +12,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 04  |               [¡Es hora de poner la navidad en casa!](challenges/04/)               |   Normal    | [Mostrar](challenges/04/solution.js) |
 | 05  |                [Contando los días para los regalos](challenges/05/)                 |    Fácil    | [Mostrar](challenges/05/solution.js) |
 | 06  |                  [Rematando los exámenes finales](challenges/06/)                   |   Normal    | [Mostrar](challenges/06/solution.js) |
-| 07  |                     [Buscando en el almacén...](challenges/07/)                     |   Normal    |                  ❌                  |
+| 07  |                     [Buscando en el almacén...](challenges/07/)                     |   Normal    | [Mostrar](challenges/07/solution.js) |
 | 08  |                  [La locura de las criptomonedas](challenges/08/)                   |   Normal    |                  ❌                  |
 | 09  |                  [Agrupando cosas automáticamente](challenges/09/)                  |   Difícil   |                  ❌                  |
 | 10  |                       [La máquina del cambio](challenges/10/)                       |   Difícil   |                  ❌                  |
