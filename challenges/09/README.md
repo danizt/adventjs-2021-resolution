@@ -9,13 +9,12 @@ Por suerte a **Mark Zucktheelf** 🧝 se le ha ocurrido crear una función que p
 Nos trae un montón de **ejemplos**:
 
 ```javascript
-groupBy([6.1, 4.2, 6.3], Math.floor); // { 6: [6.1, 6.3], 4: [4.2] }
-groupBy(['one', 'two', 'three'], 'length'); // { 3: ['one', 'two'], 5: ['three'] }
-groupBy([{ age: 23 }, { age: 24 }], 'age'); // { 23: [{age: 23}], 24: [{age: 24}] }
+groupBy([6.1, 4.2, 6.3], Math.floor) // { 6: [6.1, 6.3], 4: [4.2] }
+groupBy(['one', 'two', 'three'], 'length') // { 3: ['one', 'two'], 5: ['three'] }
+groupBy([{ age: 23 }, { age: 24 }], 'age') // { 23: [{age: 23}], 24: [{age: 24}] }
 
-groupBy(
-  [1397639141184, 1363223700000],
-  timestamp => new Date(timestamp).getFullYear()
+groupBy([1397639141184, 1363223700000], (timestamp) =>
+  new Date(timestamp).getFullYear()
 )
 // { 2013: [1363223700000], 2014: [1397639141184] }
 
@@ -23,10 +22,10 @@ groupBy(
   [
     { title: 'JavaScript: The Good Parts', rating: 8 },
     { title: 'Aprendiendo Git', rating: 10 },
-    { title: 'Clean Code', rating: 9 }
+    { title: 'Clean Code', rating: 9 },
   ],
   'rating'
-);
+)
 // { 8: [{ title: 'JavaScript: The Good Parts', rating: 8 }],
 //   9: [{ title: 'Clean Code', rating: 9 }],
 //   10: [{ title: 'Aprendiendo Git', rating: 10 }] }
@@ -36,5 +35,8 @@ Como ves, la función `groupBy` recibe una colección (array) y una función o u
 
 La dificultad del reto está más en **comprender** la función que en la **implementación**. ¡Suerte!.
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
