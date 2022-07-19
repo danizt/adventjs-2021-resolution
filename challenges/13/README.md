@@ -8,11 +8,12 @@ Vamos a crear una función que pasándole un array de regalos, nos devuelva otro
 
 Sólo tienes que tener en cuenta unas cosillas ✌️:
 
-Si el array está vacío, devuelve un array vacío
-Los regalos son emojis 🎁... por lo que tenlo en cuenta a la hora de contar su longitud...
+- Si el array está vacío, devuelve un array vacío
+- Los regalos son emojis 🎁... por lo que tenlo en cuenta a la hora de contar su longitud...
+- Por suerte, cada posición del array siempre tiene la misma longitud...
 
 ```javascript
-wrapGifts(['📷', '⚽️']);
+wrapGifts(['📷', '⚽️'])
 /* Resultado:
 [ '****',
   '*📷*',
@@ -21,7 +22,7 @@ wrapGifts(['📷', '⚽️']);
 ]
 */
 
-wrapGifts(['🏈🎸', '🎮🧸']);
+wrapGifts(['🏈🎸', '🎮🧸'])
 /* Resultado:
 [ '******',
   '*🏈🎸*',
@@ -30,7 +31,7 @@ wrapGifts(['🏈🎸', '🎮🧸']);
 ]
 */
 
-wrapGifts(['📷']);
+wrapGifts(['📷'])
 /* Resultado:
 [ '****',
   '*📷*',
@@ -39,5 +40,8 @@ wrapGifts(['📷']);
 */
 ```
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)

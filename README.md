@@ -18,7 +18,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 10  |                       [La máquina del cambio](challenges/10/)                       |   Difícil   | [Mostrar](challenges/10/solution.js) |
 | 11  |           [¿Vale la pena la tarjeta fidelidad del cine?](challenges/11/)            |   Normal    | [Mostrar](challenges/11/solution.js) |
 | 12  |              [La ruta perfecta para dejar los regalos](challenges/12/)              |   Difícil   | [Mostrar](challenges/12/solution.js) |
-| 13  |                  [Envuelve regalos con asteriscos](challenges/13/)                  |    Fácil    |                  ❌                  |
+| 13  |                  [Envuelve regalos con asteriscos](challenges/13/)                  |    Fácil    | [Mostrar](challenges/13/solution.js) |
 | 14  |                     [En busca del reno perdido](challenges/14/)                     |   Normal    |                  ❌                  |
 | 15  |                         [El salto perfecto](challenges/15/)                         |   Normal    |                  ❌                  |
 | 16  |                    [Descifrando los números...](challenges/16/)                     |    Fácil    |                  ❌                  |
