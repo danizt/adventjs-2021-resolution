@@ -1,4 +1,6 @@
 function wrapGifts(gifts) {
+  if (gifts.length === 0) return []
+
   const giftLenght = gifts[0].length
   let wrapedGifts = []
 
@@ -10,6 +12,11 @@ function wrapGifts(gifts) {
 
   return wrapedGifts
 }
+
+console.log(wrapGifts([]))
+/* Resultado:
+[]
+*/
 
 console.log(wrapGifts(['📷', '⚽️']))
 /* Resultado:
