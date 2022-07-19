@@ -13,15 +13,18 @@ Lo peor es que son tantos que no sabemos cuál es el que nos falta... ¡Qué lí
 Necesitamos una función que al pasarle la lista de ids de renos nos diga inmediatamente cuál es el que falta:
 
 ```javascript
-missingReindeer([0, 2, 3]); // -> 1
-missingReindeer([5, 6, 1, 2, 3, 7, 0]); // -> 4
-missingReindeer([0, 1]); // -> 2 (¡es el último el que falta!)
-missingReindeer([3, 0, 1]); // -> 2
-missingReindeer([9, 2, 3, 5, 6, 4, 7, 0, 1]); // -> 8
-missingReindeer([0]); // -> 1 (¡es el último el que falta!)
+missingReindeer([0, 2, 3]) // -> 1
+missingReindeer([5, 6, 1, 2, 3, 7, 0]) // -> 4
+missingReindeer([0, 1]) // -> 2 (¡es el último el que falta!)
+missingReindeer([3, 0, 1]) // -> 2
+missingReindeer([9, 2, 3, 5, 6, 4, 7, 0, 1]) // -> 8
+missingReindeer([0]) // -> 1 (¡es el último el que falta!)
 ```
 
 Parece fácil con una complejidad de O(n)... ¿crees que podrías hacerlo mejor?
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
