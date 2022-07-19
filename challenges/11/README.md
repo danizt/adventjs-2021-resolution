@@ -19,11 +19,14 @@ Ejemplo de cada una al comprar 3 entradas y el precio que pagaría en total:
 Necesito una función que, al pasarle las veces que voy a ir al cine, me diga si vale la pena comprar la tarjeta fidelidad o no.
 
 ```javascript
-shouldBuyFidelity(1); // false -> Mejor comprar tickets de un sólo uso
-shouldBuyFidelity(100); // true -> Mejor comprar tarjeta fidelidad
+shouldBuyFidelity(1) // false -> Mejor comprar tickets de un sólo uso
+shouldBuyFidelity(100) // true -> Mejor comprar tarjeta fidelidad
 ```
 
 La dificultad del reto está en encontrar una fórmula sencilla que nos diga el precio con descuento acumulado para la tarjeta fidelidad. 😜
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
