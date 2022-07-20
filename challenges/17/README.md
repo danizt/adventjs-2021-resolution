@@ -19,10 +19,10 @@ Para que lo veamos en código, tanto el array, como la función de dos parámetr
 const carriers = [
   ['dapelu', 5, ['midu', 'jelowing']],
   ['midu', 2, []],
-  ['jelowing', 2, []]
-];
+  ['jelowing', 2, []],
+]
 
-countPackages(carriers, 'dapelu'); // 9
+countPackages(carriers, 'dapelu') // 9
 // 5 de dapelu, 2 de midu y 2 de jelowing = 9
 
 const carriers2 = [
@@ -32,14 +32,17 @@ const carriers2 = [
   ['sergiomartinez', 4, []],
   ['conchaasensio', 3, ['facundocapua', 'faviola']],
   ['facundocapua', 2, []],
-  ['faviola', 1, []]
-];
+  ['faviola', 1, []],
+]
 
-countPackages(2, 'camila'); // 15
+countPackages(2, 'camila') // 15
 // 5 de camila, 4 de sergiomartinez, 3 de conchaasensio, 2 de facundocapua y 1 de faviola = 15
 ```
 
 **¡Ten cuidado!** Como has visto en el segundo ejemplo, **el organigrama puede tener diferentes niveles y además nos viene información que puede ser que no necesitemos**. Debemos tener en cuenta el parámetro de `carrierID` para calcular bien el número y contar todo su equipo.
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
