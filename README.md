@@ -23,7 +23,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 15  |                         [El salto perfecto](challenges/15/)                         |   Normal    | [Mostrar](challenges/15/solution.js) |
 | 16  |                    [Descifrando los números...](challenges/16/)                     |    Fácil    | [Mostrar](challenges/16/solution.js) |
 | 17  |            [La locura de enviar paquetes en esta época](challenges/17/)             |   Difícil   | [Mostrar](challenges/17/solution.js) |
-| 18  |                [El sistema operativo de Santa Claus](challenges/18/)                |    Fácil    |                  ❌                  |
+| 18  |                [El sistema operativo de Santa Claus](challenges/18/)                |    Fácil    | [Mostrar](challenges/18/solution.js) |
 | 19  |                [¿Qué deberíamos aprender en Platzi?](challenges/19/)                |   Normal    |                  ❌                  |
 | 20  |                   [¿Una carta de pangramas? ¡QUÉ!](challenges/20)                   |    Fácil    |                  ❌                  |
 | 21  |                      [La ruta con los regalos](challenges/21/)                      |   Difícil   |                  ❌                  |
