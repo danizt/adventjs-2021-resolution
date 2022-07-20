@@ -21,7 +21,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 13  |                  [Envuelve regalos con asteriscos](challenges/13/)                  |    Fácil    | [Mostrar](challenges/13/solution.js) |
 | 14  |                     [En busca del reno perdido](challenges/14/)                     |   Normal    | [Mostrar](challenges/14/solution.js) |
 | 15  |                         [El salto perfecto](challenges/15/)                         |   Normal    | [Mostrar](challenges/15/solution.js) |
-| 16  |                    [Descifrando los números...](challenges/16/)                     |    Fácil    |                  ❌                  |
+| 16  |                    [Descifrando los números...](challenges/16/)                     |    Fácil    | [Mostrar](challenges/16/solution.js) |
 | 17  |            [La locura de enviar paquetes en esta época](challenges/17/)             |   Difícil   |                  ❌                  |
 | 18  |                [El sistema operativo de Santa Claus](challenges/18/)                |    Fácil    |                  ❌                  |
 | 19  |                [¿Qué deberíamos aprender en Platzi?](challenges/19/)                |   Normal    |                  ❌                  |

@@ -22,19 +22,22 @@ Lara, además, ha notado una cosa. **Los símbolos se restan si están inmediata
 Tenemos que crear una función que nos pasa una cadena de texto con símbolos y tenemos que transformarlo al número correcto. ¡Ojo! Si encuentras un símbolo que no entendemos, mejor que devolvamos un `NaN`:
 
 ```javascript
-decodeNumbers('...'); // 3
-decodeNumbers('.,'); // 4 (5 - 1)
-decodeNumbers(',.'); // 6 (5 + 1)
-decodeNumbers(',...'); // 8 (5 + 3)
-decodeNumbers('.........!'); // 107 (1 + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 100)
-decodeNumbers('.;'); // 49 (50 - 1)
-decodeNumbers('..,'); // 5 (-1 + 1 + 5)
-decodeNumbers('..,!'); // 95 (1 - 1 - 5 + 100)
-decodeNumbers('.;!'); // 49 (-1 -50 + 100)
-decodeNumbers('!!!'); // 300
-decodeNumbers(';!'); // 50
-decodeNumbers(';.W'); // NaN
+decodeNumbers('...') // 3
+decodeNumbers('.,') // 4 (5 - 1)
+decodeNumbers(',.') // 6 (5 + 1)
+decodeNumbers(',...') // 8 (5 + 3)
+decodeNumbers('.........!') // 107 (1 + 1 + 1 + 1 + 1 + 1 + 1 - 1 + 100)
+decodeNumbers('.;') // 49 (50 - 1)
+decodeNumbers('..,') // 5 (-1 + 1 + 5)
+decodeNumbers('..,!') // 95 (1 - 1 - 5 + 100)
+decodeNumbers('.;!') // 49 (-1 -50 + 100)
+decodeNumbers('!!!') // 300
+decodeNumbers(';!') // 50
+decodeNumbers(';.W') // NaN
 ```
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
