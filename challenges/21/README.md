@@ -21,8 +21,8 @@ Lo mejor es que veamos un ejemplo:
 ```javascript
 canCarry(4, [
   [2, 5, 8],
-  [3, 6, 10]
-]); // false
+  [3, 6, 10],
+]) // false
 // En el punto 5 recoge 2 regalos...
 // En el punto 6 recoge 3 regalos...
 // Del punto 6 al 8 tendría 5 regalos en total
@@ -30,8 +30,8 @@ canCarry(4, [
 
 canCarry(3, [
   [1, 1, 5],
-  [2, 2, 10]
-]); // true
+  [2, 2, 10],
+]) // true
 // En el punto 1 recoge 1 regalo...
 // En el punto 2 recoge 2 regalos...
 // En el punto 5 entrega 1 regalo...
@@ -40,21 +40,24 @@ canCarry(3, [
 
 canCarry(3, [
   [2, 1, 5],
-  [3, 5, 7]
-]); // true -> nunca supera el máximo de capacidad
+  [3, 5, 7],
+]) // true -> nunca supera el máximo de capacidad
 canCarry(4, [
   [2, 3, 8],
-  [2, 5, 7]
-]); // true -> del punto 5 al 7 lleva 4 regalos y no supera el máximo
+  [2, 5, 7],
+]) // true -> del punto 5 al 7 lleva 4 regalos y no supera el máximo
 
-canCarry(1, [[2, 3, 8]]); // false -> no podría ni con el primer viaje
+canCarry(1, [[2, 3, 8]]) // false -> no podría ni con el primer viaje
 canCarry(2, [
   [1, 2, 4],
-  [2, 3, 8]
-]); // false -> del punto 3 al 4 supera la capacidad máxima porque llevaría 3 regalos
+  [2, 3, 8],
+]) // false -> del punto 3 al 4 supera la capacidad máxima porque llevaría 3 regalos
 ```
 
 Lo difícil, e importante, es que entiendas que Santa Claus **va entregando y recogiendo regalos y que a veces eso puede hacer que supere la carga máxima**.
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
