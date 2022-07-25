@@ -25,7 +25,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 17  |            [La locura de enviar paquetes en esta época](challenges/17/)             |   Difícil   | [Mostrar](challenges/17/solution.js) |
 | 18  |                [El sistema operativo de Santa Claus](challenges/18/)                |    Fácil    | [Mostrar](challenges/18/solution.js) |
 | 19  |                [¿Qué deberíamos aprender en Platzi?](challenges/19/)                |   Normal    | [Mostrar](challenges/19/solution.js) |
-| 20  |                   [¿Una carta de pangramas? ¡QUÉ!](challenges/20)                   |    Fácil    |                  ❌                  |
+| 20  |                   [¿Una carta de pangramas? ¡QUÉ!](challenges/20)                   |    Fácil    | [Mostrar](challenges/20/solution.js) |
 | 21  |                      [La ruta con los regalos](challenges/21/)                      |   Difícil   |                  ❌                  |
 | 22  |                [¿Cuántos adornos necesita el árbol?](challenges/22/)                |   Normal    |                  ❌                  |
 | 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenges/23/) | Muy difícil |                  ❌                  |

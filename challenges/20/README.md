@@ -11,14 +11,17 @@ Hay que tener en cuenta las letras en mayúscula y que las letras con acento y d
 Vamos a ver unos ejemplos de frases:
 
 ```javascript
-pangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho'); // true
-pangram('Jovencillo emponzoñado y con walkman: ¡qué figurota exhibes!'); // true
+pangram('Extraño pan de col y kiwi se quemó bajo fugaz vaho') // true
+pangram('Jovencillo emponzoñado y con walkman: ¡qué figurota exhibes!') // true
 
-pangram('Esto es una frase larga pero no tiene todas las letras del abecedario'); // false
-pangram('De la a a la z, nos faltan letras'); // false
+pangram('Esto es una frase larga pero no tiene todas las letras del abecedario') // false
+pangram('De la a a la z, nos faltan letras') // false
 ```
 
 Y ya que estás... **¿Cuál es tu pangrama favorito?** ¡Compártelo en nuestra comunidad de [**Discord**](https://discord.com/invite/midudev)!
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
