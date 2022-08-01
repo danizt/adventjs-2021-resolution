@@ -27,7 +27,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 19  |                [¿Qué deberíamos aprender en Platzi?](challenges/19/)                |   Normal    | [Mostrar](challenges/19/solution.js) |
 | 20  |                   [¿Una carta de pangramas? ¡QUÉ!](challenges/20)                   |    Fácil    | [Mostrar](challenges/20/solution.js) |
 | 21  |                      [La ruta con los regalos](challenges/21/)                      |   Difícil   | [Mostrar](challenges/21/solution.js) |
-| 22  |                [¿Cuántos adornos necesita el árbol?](challenges/22/)                |   Normal    |                  ❌                  |
+| 22  |                [¿Cuántos adornos necesita el árbol?](challenges/22/)                |   Normal    | [Mostrar](challenges/22/solution.js) |
 | 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenges/23/) | Muy difícil |                  ❌                  |
 | 24  |                   [Comparando árboles de Navidad](challenges/24/)                   |   Normal    |                  ❌                  |
 | 25  |            [El último juego y hasta el año que viene 👋](challenges/25/)            |   Normal    |                  ❌                  |
