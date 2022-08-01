@@ -12,22 +12,25 @@ Tenemos que ver si ambos árboles tienen la misma estructura y los mismos valore
 const tree = {
   value: 1,
   left: { value: 2, left: null, right: null },
-  right: { value: 3, left: null, right: null }
-};
+  right: { value: 3, left: null, right: null },
+}
 
-checkIsSameTree(tree, tree); // true
+checkIsSameTree(tree, tree) // true
 
 const tree2 = {
   value: 1,
   left: { value: 3, left: { value: 2, left: null, right: null }, right: null },
-  right: { value: 5, left: null, right: { value: 4, left: null, right: null } }
-};
+  right: { value: 5, left: null, right: { value: 4, left: null, right: null } },
+}
 
-checkIsSameTree(tree, tree2); // false
-checkIsSameTree(tree2, tree2); // true
+checkIsSameTree(tree, tree2) // false
+checkIsSameTree(tree2, tree2) // true
 ```
 
 El cuñado 🦹‍♂️, que se las sabe todas, me ha dicho que tenga cuidado porque **el truco del JSON.stringify puede no funcionar...** ya que los árboles pueden ser el mismo pero el orden de representación de las ramas izquierda y derecha puede ser inversa...
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
