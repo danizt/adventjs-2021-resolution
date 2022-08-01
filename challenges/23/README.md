@@ -45,5 +45,8 @@ const to   = 'MID'
 cons canReconfigure(from, to) // false -> no tiene la misma longitud
 ```
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
