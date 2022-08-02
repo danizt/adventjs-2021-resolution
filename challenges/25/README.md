@@ -20,28 +20,31 @@ Vamos a ver unos ejemplos:
 const room = [
   [' ', ' ', ' '],
   [' ', ' ', 'm'],
-  [' ', ' ', '*']
-];
+  [' ', ' ', '*'],
+]
 
-canMouseEat('up', room); // false
-canMouseEat('down', room); // true
-canMouseEat('right', room); // false
-canMouseEat('left', room); // false
+canMouseEat('up', room) // false
+canMouseEat('down', room) // true
+canMouseEat('right', room) // false
+canMouseEat('left', room) // false
 
 const room2 = [
   ['*', ' ', ' ', ' '],
   [' ', 'm', '*', ' '],
   [' ', ' ', ' ', ' '],
-  [' ', ' ', ' ', '*']
-];
+  [' ', ' ', ' ', '*'],
+]
 
-canMouseEat('up', room2); // false
-canMouseEat('down', room2); // false
-canMouseEat('right', room2); // true
-canMouseEat('left', room2); // false
+canMouseEat('up', room2) // false
+canMouseEat('down', room2) // false
+canMouseEat('right', room2) // true
+canMouseEat('left', room2) // false
 ```
 
 ¡Ten en cuenta que el ratón quiere buscar comida en diferentes habitaciones y que cada una puede tener dimensiones diferentes!
 
+## Solución aceptada
+
+![Solución aceptada](./solution.png)
 
 [Volver a la tabla de desafíos](/README.md)
