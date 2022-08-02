@@ -31,3 +31,8 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 | 23  | [¿Puedes reconfigurar las fábricas para no parar de crear regalos?](challenges/23/) | Muy difícil | [Mostrar](challenges/23/solution.js) |
 | 24  |                   [Comparando árboles de Navidad](challenges/24/)                   |   Normal    | [Mostrar](challenges/24/solution.js) |
 | 25  |            [El último juego y hasta el año que viene 👋](challenges/25/)            |   Normal    | [Mostrar](challenges/25/solution.js) |
+
+<details>
+<summary>Desafíos completados</summary>
+![challengesSolved](docs/challengesSolved.png)
+</details>
