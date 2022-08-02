@@ -34,5 +34,7 @@ Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) p
 
 <details>
 <summary>Desafíos completados</summary>
-![challengesSolved](docs/challengesSolved.png)
+
+![challengesSolved](./docs/challengesSolved.png)
+
 </details>
