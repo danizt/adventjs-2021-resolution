@@ -1,6 +1,6 @@
-# Resolución adventJS
+# Resolución adventJS 2021
 
-Resolución de 25 retos javascript del juego [adventJS](https://adventjs.dev/) creado por [@midudev](https://github.com/midudev/).
+Resolución de 25 retos javascript del juego [adventJS](https://2021.adventjs.dev/) creado por [@midudev](https://github.com/midudev/).
 
 ## Tabla de desafíos
 
